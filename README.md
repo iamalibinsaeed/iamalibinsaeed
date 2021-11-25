@@ -1,7 +1,7 @@
 - 👋 Hi,There I’m Ali Bin Saeed(@iamalaibinsaeed)
 - 👀 I’m interested in every intresting task.
-- 🌱 I’m currently learning larvel technology of php
-- 💞️ I’m looking to collaborate on 
+- 🌱 I’m currently learning larvel technology.
+- 💞️ I’m looking to collaborate on CMS.
 - 📫 How to reach me https://www.facebook.com/iamalibinsaeed/
 
 <!---
