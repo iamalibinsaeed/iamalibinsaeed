@@ -12,6 +12,12 @@ I'm a passionate software developer with a keen interest in web development, dat
 ### 🚀 Projects
 Here are some of the projects I've worked on:
 - [**Project 1**](https://github.com/iamalibinsaeed/passgen): A Random Strong Password Genrator.
+
+### ⏩ Continue Projects
+
+- [**Project 2**](https://github.com/iamalibinsaeed/react-todo-hooks) : A simple React Todo application that allows users to manage their tasks with features like adding, updating, deleting, and toggling task completion.
+- [**Project 3**](https://github.com/iamalibinsaeed/react-real-estate-ui) : Abraham Estate : The Real Estate Management System
+
 ### 📈 GitHub Stats
 ![Ali Bin Saeed's GitHub stats](https://github-readme-stats.vercel.app/api?username=iamalibinsaeed&show_icons=true&theme=radical)
 
