@@ -4,8 +4,8 @@
 I'm a passionate software developer with a keen interest in web development, data science, and open-source contributions. I love exploring new technologies and working on innovative projects.
 
 ### 🛠️ Technologies & Tools
-- **Languages:** Python, JavaScript, Java, C++
-- **Frameworks/Libraries:** React, Node.js, Django
+- **Languages:**  JavaScript, Php
+- **Frameworks/Libraries:** React, Node.js, Smarty, Laravel
 - **Databases:** MySQL, PostgreSQL, MongoDB
 - **Tools:** Git, Docker, AWS
 
