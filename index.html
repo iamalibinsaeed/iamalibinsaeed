@@ -24,7 +24,7 @@
                 <li><a href="#jobs"><span>02.</span> Experience</a></li>
                 <li><a href="#projects"><span>03.</span> Work</a></li>
                 <li><a href="#contact"><span>04.</span> Contact</a></li>
-                <li><a href="Profile (1).pdf" target="_blank" class="btn"
+                <li><a href="javascript:void(0);" onclick="generateResume()" class="btn"
                         style="padding: 0.5rem 1rem; margin-left: 15px;">Resume</a></li>
             </ul>
         </nav>
@@ -102,20 +102,21 @@
                     <button class="tab-btn active" data-target="job-1">Smart Techlodge</button>
                     <button class="tab-btn" data-target="job-2">AWAYR</button>
                     <button class="tab-btn" data-target="job-3">IT Extension</button>
-                    <button class="tab-btn" data-target="job-4">IT Centre</button>
-                    <button class="tab-btn" data-target="job-5">TransData</button>
-                    <button class="tab-btn" data-target="job-6">WebBuggs</button>
+                    <button class="tab-btn" data-target="job-4">Smart Techlodge QA</button>
+                    <button class="tab-btn" data-target="job-5">Smart Techlodge SE</button>
+                    <button class="tab-btn" data-target="job-6">IT Centre</button>
+                    <button class="tab-btn" data-target="job-7">TransData</button>
+                    <button class="tab-btn" data-target="job-8">WebBuggs</button>
                 </div>
                 <div class="job-content">
-                    <!-- Job 1 -->
+                    <!-- Job 1 - Current -->
                     <div class="job-pane active" id="job-1">
                         <h3>Software Engineer in Test <span>@ Smart Techlodge</span></h3>
                         <p class="range">September 2025 - Present</p>
                         <ul>
-                            <li>Leading automated testing initiatives and quality assurance workflows.</li>
-                            <li>Ensuring every feature delivers the best possible user experience.</li>
-                            <li>Previous roles here included QA Engineer (manual test plans) and Software Engineer (CRM
-                                customization).</li>
+                            <li>Leading automated testing initiatives and quality assurance workflows</li>
+                            <li>Ensuring every feature delivers the best possible user experience</li>
+                            <li>Implementing comprehensive test strategies for web applications</li>
                         </ul>
                     </div>
                     <!-- Job 2 -->
@@ -123,10 +124,10 @@
                         <h3>Software Engineer <span>@ AWAYR</span></h3>
                         <p class="range">February 2025 - May 2025</p>
                         <ul>
-                            <li>Collaborated with development teams to create responsive UIs using React.js and Vue.js.
+                            <li>Collaborated with development teams to create responsive UIs using React.js and Vue.js
                             </li>
-                            <li>Integrated APIs for seamless data exchange and enhanced application functionality.</li>
-                            <li>Performed code reviews and implemented clean code best practices.</li>
+                            <li>Integrated APIs for seamless data exchange and enhanced application functionality</li>
+                            <li>Performed code reviews and implemented clean code best practices</li>
                         </ul>
                     </div>
                     <!-- Job 3 -->
@@ -134,37 +135,57 @@
                         <h3>Software Engineer <span>@ IT Extension</span></h3>
                         <p class="range">August 2024 - January 2025</p>
                         <ul>
-                            <li>Leveraged React hooks and state management for interactive web apps.</li>
-                            <li>Optimized frontend performance and ensured cross-browser compatibility.</li>
-                            <li>Delivered robust applications by analyzing complex requirements.</li>
+                            <li>Leveraged React hooks and state management for interactive web apps</li>
+                            <li>Optimized frontend performance and ensured cross-browser compatibility</li>
+                            <li>Delivered robust applications by analyzing complex requirements</li>
                         </ul>
                     </div>
-                    <!-- Job 4 -->
+                    <!-- Job 4 - QA Role at Smart Techlodge -->
                     <div class="job-pane" id="job-4">
-                        <h3>Trainee Developer <span>@ IT Centre RYK</span></h3>
-                        <p class="range">November 2022 - February 2023</p>
+                        <h3>Software Quality Assurance Engineer <span>@ Smart Techlodge</span></h3>
+                        <p class="range">February 2024 - July 2024</p>
                         <ul>
-                            <li>Gained hands-on experience in Laravel and Frontend development.</li>
-                            <li>Worked on real-world projects during an intensive training period.</li>
+                            <li>Developed and executed comprehensive test plans for web applications</li>
+                            <li>Identified and documented software defects and quality issues</li>
+                            <li>Collaborated with development teams to ensure product quality</li>
                         </ul>
                     </div>
-                    <!-- Job 5 -->
+                    <!-- Job 5 - Software Engineer at Smart Techlodge -->
                     <div class="job-pane" id="job-5">
-                        <h3>CSR <span>@ TransData</span></h3>
-                        <p class="range">July 2021 - December 2021</p>
+                        <h3>Software Engineer <span>@ Smart Techlodge</span></h3>
+                        <p class="range">February 2023 - January 2024</p>
                         <ul>
-                            <li>Handled customer inquiries and product details for US-based campaigns.</li>
-                            <li>Managed order tracking, returns, and refund processing effectively.</li>
+                            <li>Customized and maintained SugarCRM and SuiteCRM systems</li>
+                            <li>Developed custom modules and workflows for CRM platforms</li>
+                            <li>Provided technical support and training to end users</li>
                         </ul>
                     </div>
                     <!-- Job 6 -->
                     <div class="job-pane" id="job-6">
-                        <h3>Wordpress Developer <span>@ WebBuggs</span></h3>
+                        <h3>Trainee Web Developer - Laravel <span>@ IT Centre RYK</span></h3>
+                        <p class="range">January 2023 - February 2023</p>
+                        <ul>
+                            <li>Gained hands-on experience in Laravel framework and frontend development</li>
+                            <li>Worked on real-world projects during intensive training period</li>
+                        </ul>
+                    </div>
+                    <!-- Job 7 -->
+                    <div class="job-pane" id="job-7">
+                        <h3>Customer Service Representative <span>@ TransData</span></h3>
+                        <p class="range">July 2021 - December 2021</p>
+                        <ul>
+                            <li>Handled customer inquiries and product details for US-based campaigns</li>
+                            <li>Managed order tracking, returns, and refund processing effectively</li>
+                        </ul>
+                    </div>
+                    <!-- Job 8 -->
+                    <div class="job-pane" id="job-8">
+                        <h3>WordPress Developer <span>@ WebBuggs</span></h3>
                         <p class="range">September 2020 - February 2021</p>
                         <ul>
-                            <li>Designed and managed website frontends from scratch.</li>
-                            <li>Converted visual designs (PSD/Figma) into working WordPress sites.</li>
-                            <li>Maintained CSS consistency across all platforms and browsers.</li>
+                            <li>Designed and managed website frontends from scratch</li>
+                            <li>Converted visual designs (PSD/Figma) into working WordPress sites</li>
+                            <li>Maintained CSS consistency across all platforms and browsers</li>
                         </ul>
                     </div>
                 </div>
@@ -227,9 +248,29 @@
             </div>
         </section>
 
+        <!-- Education Section -->
+        <section id="education" class="reveal">
+            <h2 class="section-title"><span>04.</span> Education</h2>
+            <div class="jobs-container" style="max-width: 800px;">
+                <div class="job-content" style="padding: 0;">
+                    <div class="job-pane active" style="display: block;">
+                        <h3>Bachelor of Science (BS), Computer Science <span>@ NCBA&E</span></h3>
+                        <p class="range">2017 - 2021</p>
+                        <p style="color: var(--slate); margin-top: 10px;">National College of Business Administration &
+                            Economics</p>
+                    </div>
+                    <div class="job-pane active" style="display: block; margin-top: 30px;">
+                        <h3>ICS, Computer Engineering <span>@ Nicaas Colleges</span></h3>
+                        <p class="range">2014 - 2016</p>
+                        <p style="color: var(--slate); margin-top: 10px;">Nicaas Colleges, Rahim Yar Khan</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- Certifications -->
         <section id="certs" class="reveal">
-            <h2 class="section-title"><span>04.</span> Certifications</h2>
+            <h2 class="section-title"><span>05.</span> Certifications</h2>
             <div class="cert-grid">
                 <div class="cert-card">
                     <div class="cert-top">
@@ -266,7 +307,7 @@
 
         <!-- Contact Section -->
         <section id="contact" class="reveal" style="text-align: center; max-width: 600px; margin: 0 auto;">
-            <p style="font-family: var(--font-mono); color: var(--teal); margin-bottom: 20px;">05. What's Next?</p>
+            <p style="font-family: var(--font-mono); color: var(--teal); margin-bottom: 20px;">06. What's Next?</p>
             <h2 style="font-size: clamp(40px, 5vw, 60px); color: var(--lightest-slate); margin-bottom: 20px;">Get In
                 Touch</h2>
             <p>I'm currently looking for new opportunities and collaborations. Whether you have a question or just want
@@ -282,6 +323,8 @@
         </footer>
     </main>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="assets/js/resume-generator.js"></script>
     <script src="assets/js/script.js"></script>
 </body>
 
