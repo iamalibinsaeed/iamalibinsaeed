@@ -1,8 +1,32 @@
 # Hi there, I'm Ali Bin Saeed 👋
 
-## Software Engineer in Test | Full Stack Developer
+### Software Engineer in Test | React.js | PHP | WordPress | CRM Customization | Exploring Gen AI & Project Management
 
-I'm a passionate **Software Engineer in Test** and **Full Stack Developer** with a keen interest in **Generative AI**, **Project Management**, and open-source contributions. I specialize in building robust applications and ensuring their quality through automated and manual testing.
+I am a Software Engineer currently specializing in **Software Testing**, skilled in **React.js, PHP, and WordPress**. I have extensive experience in building responsive web applications and customizing CRM systems like SugarCRM and SuiteCRM. Passionate about ensuring product quality, optimizing performance, and solving technical challenges through a blend of development and testing expertise.
+
+---
+
+### 💼 Professional Experience
+
+| Period | Role | Company |
+| :--- | :--- | :--- |
+| **Sept 2025 - Present** | **Software Engineer in Test** | Smart Techlodge |
+| **Feb 2025 - May 2025** | **Software Engineer** | AWAYR |
+| **Aug 2024 - Jan 2025** | **Software Engineer** | IT Extension |
+| **Feb 2024 - July 2024** | **QA Engineer** | Smart Techlodge |
+| **Feb 2023 - Jan 2024** | **Software Engineer** | Smart Techlodge |
+| **Sept 2020 - Feb 2021** | **Wordpress Developer** | WebBuggs |
+
+---
+
+### 🎓 Education & Certifications
+
+- **BS in Computer Science** (2017 - 2021) @ National College Of Business Administration & Economics
+- **Generative AI Overview for Project Managers**
+- **Foundations of Project Management**
+- **Technical Training Course**
+- **Introduction to Cloud Identity**
+- **Nestlé E-Learning Sustainability**
 
 ---
 
@@ -15,51 +39,34 @@ I'm a passionate **Software Engineer in Test** and **Full Stack Developer** with
   <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
   <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel" />
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
+  <img src="https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white" alt="WordPress" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
   <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS" />
 </p>
 
 ---
 
-### 💼 Experience
-
-**Software Engineer in Test** @ [Smart Techlodge](https://smarttechlodge.com/)
-*Focusing on automated testing, quality assurance, and robust software delivery.*
-
----
-
-### 🎯 Goals & Interests
-
-- **Generative AI**: Exploring LLMs, RAG pipelines, and AI-driven development tools.
-- **Project Management**: improving team workflows and agile methodologies.
-- **Open Source**: Contributing to tools that help developers build better software.
-
----
-
 ### 🚀 Projects
 
-| Project | Description | Tech Stack |
-|:--- |:--- |:--- |
-| [**Passgen**](https://github.com/iamalibinsaeed/passgen) | A Random Strong Password Generator. | JavaScript |
-| [**React Todo**](https://github.com/iamalibinsaeed/react-todo-hooks) | A simple React Todo application with CRUD features. | React, Hooks |
-| [**Abraham Estate**](https://github.com/iamalibinsaeed/react-real-estate-ui) | The Real Estate Management System UI. | React, UI/UX |
+- [**Passgen**](https://github.com/iamalibinsaeed/passgen): A Random Strong Password Generator.
+- [**React Todo**](https://github.com/iamalibinsaeed/react-todo-hooks): Simple React applications demonstrating hooks and state management.
+- [**Abraham Estate**](https://github.com/iamalibinsaeed/react-real-estate-ui): Real Estate Management System UI.
 
 ---
 
-### 📈 GitHub Stats
+### 📉 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=iamalibinsaeed&show_icons=true&theme=radical&count_private=true" alt="Ali Bin Saeed's GitHub stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=iamalibinsaeed&theme=radical" alt="Ali Bin Saeed's Streak" />
+  <img src="https://github-readme-stats.vercel.app/api?username=iamalibinsaeed&show_icons=true&theme=radical&count_private=true" alt="Ali's GitHub stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=iamalibinsaeed&theme=radical" alt="Ali's Streak" />
 </p>
 
 ---
 
 ### 📫 How to reach me
 
-- **Email:** [iamalibinsaeed@gmail.com](mailto:iamalibinsaeed@gmail.com)
 - **LinkedIn:** [Ali Bin Saeed](https://www.linkedin.com/in/iamalibinsaeed/)
+- **Email:** [iamalibinsaeed@gmail.com](mailto:iamalibinsaeed@gmail.com)
 - **Twitter:** [@iamalibinsaeed](https://twitter.com/iamalibinsaeed)
 
 <p align="center">

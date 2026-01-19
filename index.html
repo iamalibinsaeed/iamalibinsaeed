@@ -9,190 +9,278 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
 
     <header>
-        <div class="container">
-            <nav>
-                <div class="logo">Ali Bin Saeed</div>
-                <ul class="nav-links">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
+        <nav>
+            <div class="logo">A</div>
+            <ul class="nav-links">
+                <li><a href="#about"><span>01.</span> About</a></li>
+                <li><a href="#jobs"><span>02.</span> Experience</a></li>
+                <li><a href="#projects"><span>03.</span> Work</a></li>
+                <li><a href="#contact"><span>04.</span> Contact</a></li>
+                <li><a href="Profile (1).pdf" target="_blank" class="btn"
+                        style="padding: 0.5rem 1rem; margin-left: 15px;">Resume</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <section class="hero">
-        <div class="container hero-content">
-            <p>Hello, I'm Ali Bin Saeed</p>
-            <h1>
-                <span class="hero-subtitle">Software Engineer in Test</span>
-                Full Stack Developer
-            </h1>
-            <p>Building high-quality, robust applications with a focus on specific automated testing and generative AI.
+    <div class="side-bar left">
+        <div class="social-icons">
+            <a href="https://github.com/iamalibinsaeed" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/iamalibinsaeed/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://twitter.com/iamalibinsaeed" target="_blank"><i class="fab fa-twitter"></i></a>
+        </div>
+    </div>
+
+    <div class="side-bar right">
+        <a href="mailto:iamalibinsaeed@gmail.com" class="email-link">iamalibinsaeed@gmail.com</a>
+    </div>
+
+    <main class="container">
+        <!-- Hero Section -->
+        <section class="hero reveal">
+            <p>Hi, my name is</p>
+            <h1>Ali Bin Saeed.</h1>
+            <h2>I build and test digital solutions.</h2>
+            <p class="hero-desc">
+                I'm a <strong>Software Engineer in Test</strong> and <strong>Full Stack Developer</strong> specializing
+                in building (and occasionally designing) exceptional digital experiences. Currently, I'm focused on
+                quality assurance at <a href="https://smarttechlodge.com/" target="_blank"
+                    style="color: var(--teal);">Smart Techlodge</a> while exploring Gen AI.
             </p>
-            <a href="#projects" class="btn">View Work</a>
-            <a href="#contact" class="btn btn-outline">Contact Me</a>
-        </div>
-    </section>
+            <a href="#projects" class="btn">Check out my work!</a>
+        </section>
 
-    <section id="about" class="section reveal">
-        <div class="container">
-            <h2 class="section-title">About Me</h2>
-            <div class="content" style="max-width: 800px; margin: 0 auto; text-align: center;">
-                <p>I am a passionate Software Engineer in Test and Full Stack Developer. My journey involves not just
-                    writing code, but ensuring it works perfectly through rigorous automated testing.</p>
-                <br>
-                <p>Currently, I am expanding my horizons into <strong>Generative AI</strong> and <strong>Project
-                        Management</strong>, aiming to build smarter tools and lead efficient teams.</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="experience" class="section reveal">
-        <div class="container">
-            <h2 class="section-title">Experience</h2>
-            <div class="timeline">
-                <div class="timeline-item left">
-                    <div class="content">
-                        <h2>Software Engineer in Test</h2>
-                        <span>2023 - Present</span>
-                        <h3>Smart Techlodge</h3>
-                        <p>Leading automated testing initiatives and ensuring software quality across multiple projects.
-                        </p>
+        <!-- About Section -->
+        <section id="about" class="reveal">
+            <h2 class="section-title"><span>01.</span> About Me</h2>
+            <div style="display: grid; grid-template-columns: 3fr 2fr; gap: 50px;">
+                <div class="about-text">
+                    <p>I am a Software Engineer currently specializing in Software Testing, skilled in <strong>React.js,
+                            PHP, and WordPress</strong>. My experience ranges from building responsive web applications
+                        to customizing CRM systems like SugarCRM and SuiteCRM.</p>
+                    <br>
+                    <p>I am passionate about ensuring product quality, optimizing performance, and solving technical
+                        challenges through a blend of development and testing expertise.</p>
+                    <br>
+                    <p>Here are a few technologies I’ve been working with recently:</p>
+                    <ul
+                        style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 20px; font-family: var(--font-mono); font-size: 0.85rem;">
+                        <li><span style="color: var(--teal); margin-right: 10px;">▹</span> JavaScript (ES6+)</li>
+                        <li><span style="color: var(--teal); margin-right: 10px;">▹</span> PHP (Smarty / Laravel)</li>
+                        <li><span style="color: var(--teal); margin-right: 10px;">▹</span> React.js</li>
+                        <li><span style="color: var(--teal); margin-right: 10px;">▹</span> WordPress / CRM</li>
+                        <li><span style="color: var(--teal); margin-right: 10px;">▹</span> Node.js</li>
+                        <li><span style="color: var(--teal); margin-right: 10px;">▹</span> Automated Testing</li>
+                    </ul>
+                </div>
+                <div class="about-img" style="position: relative;">
+                    <!-- Placeholder image matching reference aesthetic -->
+                    <div
+                        style="width: 100%; aspect-ratio: 1; border: 2px solid var(--teal); border-radius: 4px; position: absolute; top: 20px; left: 20px; z-index: -1;">
+                    </div>
+                    <div
+                        style="width: 100%; aspect-ratio: 1; background-color: var(--teal); border-radius: 4px; overflow: hidden; position: relative;">
+                        <img src="https://via.placeholder.com/300x300/0a192f/64ffda?text=Ali+Bin+Saeed" alt="Profile"
+                            style="width: 100%; height: 100%; mix-blend-mode: multiply; filter: grayscale(100%) contrast(1);">
                     </div>
                 </div>
-                <div class="timeline-item right">
-                    <div class="content">
-                        <h2>Full Stack Developer</h2>
-                        <span>2021 - 2023</span>
-                        <h3>Freelance / Projects</h3>
-                        <p>Developed dynamic web applications using React, Node.js, and Laravel for various clients.</p>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="jobs" class="reveal">
+            <h2 class="section-title"><span>02.</span> Where I've Worked</h2>
+            <div class="jobs-container">
+                <div class="tab-list">
+                    <button class="tab-btn active" data-target="job-1">Smart Techlodge</button>
+                    <button class="tab-btn" data-target="job-2">AWAYR</button>
+                    <button class="tab-btn" data-target="job-3">IT Extension</button>
+                    <button class="tab-btn" data-target="job-4">IT Centre</button>
+                    <button class="tab-btn" data-target="job-5">TransData</button>
+                    <button class="tab-btn" data-target="job-6">WebBuggs</button>
+                </div>
+                <div class="job-content">
+                    <!-- Job 1 -->
+                    <div class="job-pane active" id="job-1">
+                        <h3>Software Engineer in Test <span>@ Smart Techlodge</span></h3>
+                        <p class="range">September 2025 - Present</p>
+                        <ul>
+                            <li>Leading automated testing initiatives and quality assurance workflows.</li>
+                            <li>Ensuring every feature delivers the best possible user experience.</li>
+                            <li>Previous roles here included QA Engineer (manual test plans) and Software Engineer (CRM
+                                customization).</li>
+                        </ul>
+                    </div>
+                    <!-- Job 2 -->
+                    <div class="job-pane" id="job-2">
+                        <h3>Software Engineer <span>@ AWAYR</span></h3>
+                        <p class="range">February 2025 - May 2025</p>
+                        <ul>
+                            <li>Collaborated with development teams to create responsive UIs using React.js and Vue.js.
+                            </li>
+                            <li>Integrated APIs for seamless data exchange and enhanced application functionality.</li>
+                            <li>Performed code reviews and implemented clean code best practices.</li>
+                        </ul>
+                    </div>
+                    <!-- Job 3 -->
+                    <div class="job-pane" id="job-3">
+                        <h3>Software Engineer <span>@ IT Extension</span></h3>
+                        <p class="range">August 2024 - January 2025</p>
+                        <ul>
+                            <li>Leveraged React hooks and state management for interactive web apps.</li>
+                            <li>Optimized frontend performance and ensured cross-browser compatibility.</li>
+                            <li>Delivered robust applications by analyzing complex requirements.</li>
+                        </ul>
+                    </div>
+                    <!-- Job 4 -->
+                    <div class="job-pane" id="job-4">
+                        <h3>Trainee Developer <span>@ IT Centre RYK</span></h3>
+                        <p class="range">November 2022 - February 2023</p>
+                        <ul>
+                            <li>Gained hands-on experience in Laravel and Frontend development.</li>
+                            <li>Worked on real-world projects during an intensive training period.</li>
+                        </ul>
+                    </div>
+                    <!-- Job 5 -->
+                    <div class="job-pane" id="job-5">
+                        <h3>CSR <span>@ TransData</span></h3>
+                        <p class="range">July 2021 - December 2021</p>
+                        <ul>
+                            <li>Handled customer inquiries and product details for US-based campaigns.</li>
+                            <li>Managed order tracking, returns, and refund processing effectively.</li>
+                        </ul>
+                    </div>
+                    <!-- Job 6 -->
+                    <div class="job-pane" id="job-6">
+                        <h3>Wordpress Developer <span>@ WebBuggs</span></h3>
+                        <p class="range">September 2020 - February 2021</p>
+                        <ul>
+                            <li>Designed and managed website frontends from scratch.</li>
+                            <li>Converted visual designs (PSD/Figma) into working WordPress sites.</li>
+                            <li>Maintained CSS consistency across all platforms and browsers.</li>
+                        </ul>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="skills" class="section reveal">
-        <div class="container">
-            <h2 class="section-title">Tech Stack</h2>
-            <div class="skills-grid">
-                <div class="skill-card">
-                    <i class="fab fa-js"></i>
-                    <h3>JavaScript</h3>
-                </div>
-                <div class="skill-card">
-                    <i class="fab fa-react"></i>
-                    <h3>React</h3>
-                </div>
-                <div class="skill-card">
-                    <i class="fab fa-node-js"></i>
-                    <h3>Node.js</h3>
-                </div>
-                <div class="skill-card">
-                    <i class="fab fa-php"></i>
-                    <h3>PHP</h3>
-                </div>
-                <div class="skill-card">
-                    <i class="fab fa-laravel"></i>
-                    <h3>Laravel</h3>
-                </div>
-                <div class="skill-card">
-                    <i class="fas fa-database"></i>
-                    <h3>MySQL</h3>
-                </div>
-                <div class="skill-card">
-                    <i class="fab fa-docker"></i>
-                    <h3>Docker</h3>
-                </div>
-                <div class="skill-card">
-                    <i class="fab fa-aws"></i>
-                    <h3>AWS</h3>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="projects" class="section reveal">
-        <div class="container">
-            <h2 class="section-title">Featured Projects</h2>
-            <div class="projects-grid">
-                <!-- Project 1 -->
-                <article class="project-card">
-                    <div class="project-info">
-                        <h3>Passgen</h3>
-                        <div class="tags">
-                            <span class="tag">JavaScript</span>
-                            <span class="tag">Security</span>
+        <!-- Projects Section -->
+        <section id="projects" class="reveal">
+            <h2 class="section-title"><span>03.</span> Some Things I've Built</h2>
+            <div class="project-list">
+                <!-- Project Item -->
+                <div class="project-item">
+                    <div class="project-img">
+                        <img src="https://via.placeholder.com/600x400/112240/64ffda?text=Passgen" alt="Project 1">
+                    </div>
+                    <div class="project-text">
+                        <p class="overline">Featured Project</p>
+                        <h3>Random Password Generator</h3>
+                        <div class="project-desc">
+                            A secure, customizable password generation tool built to ensure user privacy and account
+                            safety. Features dynamic strength indicators and one-click copying.
                         </div>
-                        <p>A Random Strong Password Generator to help users secure their accounts.</p>
-                        <a href="https://github.com/iamalibinsaeed/passgen" target="_blank" class="btn">View Code</a>
-                    </div>
-                </article>
-
-                <!-- Project 2 -->
-                <article class="project-card">
-                    <div class="project-info">
-                        <h3>React Todo</h3>
-                        <div class="tags">
-                            <span class="tag">React</span>
-                            <span class="tag">Hooks</span>
+                        <ul class="project-tech">
+                            <li>JavaScript</li>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="https://github.com/iamalibinsaeed/passgen" target="_blank"><i
+                                    class="fab fa-github"></i></a>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
                         </div>
-                        <p>A simple yet powerful React Todo application with CRUD features.</p>
-                        <a href="https://github.com/iamalibinsaeed/react-todo-hooks" target="_blank" class="btn">View
-                            Code</a>
                     </div>
-                </article>
+                </div>
 
-                <!-- Project 3 -->
-                <article class="project-card">
-                    <div class="project-info">
-                        <h3>Abraham Estate</h3>
-                        <div class="tags">
-                            <span class="tag">React</span>
-                            <span class="tag">UI/UX</span>
+                <!-- Project Item (Reverse) -->
+                <div class="project-item">
+                    <div class="project-img">
+                        <img src="https://via.placeholder.com/600x400/112240/64ffda?text=Abraham+Estate"
+                            alt="Project 2">
+                    </div>
+                    <div class="project-text">
+                        <p class="overline">Featured Project</p>
+                        <h3>Abraham Estate UI</h3>
+                        <div class="project-desc">
+                            A high-fidelity Real Estate Management System UI. Designed with a focus on user experience,
+                            property filtering, and seamless navigation.
                         </div>
-                        <p>A comprehensive Real Estate Management System UI designed for modern browsing.</p>
-                        <a href="https://github.com/iamalibinsaeed/react-real-estate-ui" target="_blank"
-                            class="btn">View Code</a>
+                        <ul class="project-tech">
+                            <li>React</li>
+                            <li>Styled Components</li>
+                            <li>Hooks</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="https://github.com/iamalibinsaeed/react-real-estate-ui" target="_blank"><i
+                                    class="fab fa-github"></i></a>
+                        </div>
                     </div>
-                </article>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="contact" class="section reveal">
-        <div class="container">
-            <h2 class="section-title">Get In Touch</h2>
-            <p style="max-width: 600px; margin: 0 auto; color: var(--text-muted);">
-                Feel free to connect with me. I'm always open to collaborating on interesting projects and learning new
-                things!
-            </p>
-            <div class="social-links">
-                <a href="mailto:iamalibinsaeed@gmail.com" class="social-link" title="Email"><i
-                        class="fas fa-envelope"></i></a>
-                <a href="https://www.linkedin.com/in/iamalibinsaeed/" class="social-link" title="LinkedIn"><i
-                        class="fab fa-linkedin-in"></i></a>
-                <a href="https://twitter.com/iamalibinsaeed" class="social-link" title="Twitter"><i
-                        class="fab fa-twitter"></i></a>
-                <a href="https://github.com/iamalibinsaeed" class="social-link" title="GitHub"><i
-                        class="fab fa-github"></i></a>
+        <!-- Certifications -->
+        <section id="certs" class="reveal">
+            <h2 class="section-title"><span>04.</span> Certifications</h2>
+            <div class="cert-grid">
+                <div class="cert-card">
+                    <div class="cert-top">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3 class="cert-title">Generative AI Overview for Project Managers</h3>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-top">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3 class="cert-title">Foundations of Project Management</h3>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-top">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3 class="cert-title">Technical Training Course</h3>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-top">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3 class="cert-title">Introduction to Cloud Identity</h3>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-top">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3 class="cert-title">Nestlé E-Learning Sustainability</h3>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Next AImer. All rights reserved.</p>
-        </div>
-    </footer>
+        <!-- Contact Section -->
+        <section id="contact" class="reveal" style="text-align: center; max-width: 600px; margin: 0 auto;">
+            <p style="font-family: var(--font-mono); color: var(--teal); margin-bottom: 20px;">05. What's Next?</p>
+            <h2 style="font-size: clamp(40px, 5vw, 60px); color: var(--lightest-slate); margin-bottom: 20px;">Get In
+                Touch</h2>
+            <p>I'm currently looking for new opportunities and collaborations. Whether you have a question or just want
+                to say hi, my inbox is always open!</p>
+            <a href="mailto:iamalibinsaeed@gmail.com" class="btn" style="margin-top: 50px; display: inline-block;">Say
+                Hello</a>
+        </section>
+
+        <footer
+            style="text-align: center; padding: 40px 0; font-family: var(--font-mono); font-size: 0.75rem; color: var(--slate);">
+            <p>Designed & Built by Ali Bin Saeed</p>
+            <p style="margin-top: 5px;">Aesthetic inspired by Umair Younas & Brittany Chiang</p>
+        </footer>
+    </main>
 
     <script src="assets/js/script.js"></script>
 </body>
