@@ -1,132 +1,131 @@
-# Ali Bin Saeed — Portfolio Website
+<div align="center">
 
-Futuristic personal portfolio. Pure HTML, CSS, and vanilla JavaScript. No build step required.
+# Ali Bin Saeed
 
-## Files
+**Software Engineer in Test · QA Automation · CRM & Workflow Automation · AI-Assisted Development**
 
-```
-ali-portfolio/
-├── index.html   ← main page
-├── style.css    ← all styles
-├── main.js      ← cursor, particles, scroll reveal, mobile nav
-└── README.md    ← this file
-```
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/iamalibinsaeed/)
+[![Email](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:iamalibinsaeed@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://iamalibinsaeed.vercel.app)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/iamalibinsaeed)
 
----
+![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=iamalibinsaeed.iamalibinsaeed)
 
-## 🚀 Deploy to GitHub + Vercel (Step by Step)
-
-### Step 1 — Create a GitHub repository
-
-1. Go to https://github.com and log in
-2. Click the **+** icon (top right) → **New repository**
-3. Repository name: `portfolio` (or `ali-portfolio`)
-4. Set to **Public**
-5. Do NOT check "Add a README" (you already have files)
-6. Click **Create repository**
+</div>
 
 ---
 
-### Step 2 — Upload your files to GitHub
+### 👋 About Me
 
-**Option A — Using GitHub website (easiest):**
+I'm a **Software Engineer in Test** based in Rahim Yar Khan, Pakistan — open to worldwide remote roles.
 
-1. On your new repo page, click **"uploading an existing file"**
-2. Drag and drop all 4 files: `index.html`, `style.css`, `main.js`, `README.md`
-3. Scroll down → click **"Commit changes"**
+4+ years across software development, quality assurance, CRM automation, and technical support. My edge is being able to **build the thing and break it** — I've written production PHP and React code, which means I test with developer intuition and catch what pure testers miss.
 
-**Option B — Using Git in terminal:**
+Currently expanding into **n8n, Zapier, Make.com, Playwright, and Python** for test automation. Certified by Google in Project Management and PMI in Generative AI.
 
-```bash
-# Navigate to your project folder
-cd ali-portfolio
-
-# Initialize git
-git init
-
-# Add all files
-git add .
-
-# Commit
-git commit -m "Initial portfolio commit"
-
-# Add your GitHub repo as remote (replace YOUR_USERNAME)
-git remote add origin https://github.com/YOUR_USERNAME/portfolio.git
-
-# Push
-git branch -M main
-git push -u origin main
+```text
+🔭 Currently    Software Engineer in Test @ Smart Techlodge
+🌱 Learning     n8n · Zapier · Playwright · Python for test scripting
+🎯 Open to      QA Automation · AI/Workflow Automation · Technical Support · Project Management
+🌍 Location     Rahim Yar Khan, Pakistan · Remote Worldwide
+⚡ Available    Immediate start · Full-time or Contract
 ```
 
 ---
 
-### Step 3 — Deploy to Vercel (free, instant)
+### 💼 Experience
 
-1. Go to https://vercel.com and sign up with your GitHub account
-2. Click **"Add New Project"**
-3. Find your `portfolio` repo and click **"Import"**
-4. Vercel will auto-detect it as a static site — no settings needed
-5. Click **"Deploy"**
-6. In ~30 seconds, your site is live at: `https://portfolio-yourusername.vercel.app`
-
----
-
-### Step 4 — Get a custom domain (optional but professional)
-
-**Free subdomain (instant):**
-- Vercel gives you: `https://ali-bin-saeed.vercel.app`
-- In Vercel dashboard → Settings → Domains → type your preferred name
-
-**Buy a domain (~$10/year):**
-- Recommended: Namecheap.com or Porkbun.com
-- Buy: `alibinsaeed.com` or `alibinsaeed.dev`
-- In Vercel → Settings → Domains → Add your domain
-- Follow the DNS instructions (takes 5–30 min)
+| Period | Role | Company |
+| :--- | :--- | :--- |
+| **Sep 2025 – Present** | Software Engineer in Test | Smart Techlodge |
+| **Feb 2025 – May 2025** | Software Engineer | AWAYR Ltd. |
+| **Aug 2024 – Jan 2025** | Software Engineer | IT Extension |
+| **Feb 2024 – Jul 2024** | Software QA Engineer | Smart Techlodge |
+| **Feb 2023 – Jan 2024** | Software Engineer | Smart Techlodge |
+| **Jul 2021 – Dec 2021** | Customer Service Representative | TransData |
+| **Sep 2020 – Feb 2021** | WordPress Developer | WebBuggs |
 
 ---
 
-## 🔄 How to Update the Website
+### 🛠️ Tech Stack
 
-After any change to your files:
+**Testing & QA**
 
-```bash
-git add .
-git commit -m "Update experience section"
-git push
-```
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
-Vercel automatically redeploys within 30 seconds. ✅
+**Development**
 
----
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![WordPress](https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white)
 
-## 📧 Contact Form (Optional Upgrade)
+**CRM & Automation**
 
-To make the contact section functional, add Formspree (free):
+![SuiteCRM](https://img.shields.io/badge/SuiteCRM-4287C8?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTEyIDJhMTAgMTAgMCAxIDAgMCAyMEExMCAxMCAwIDAgMCAxMiAyeiIgZmlsbD0id2hpdGUiLz48L3N2Zz4=&logoColor=white)
+![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
+![Zapier](https://img.shields.io/badge/Zapier-FF4A00?style=for-the-badge&logo=zapier&logoColor=white)
 
-1. Go to https://formspree.io and sign up
-2. Create a new form → copy your form endpoint
-3. In `index.html`, replace the contact links section with:
+**Cloud & AI**
 
-```html
-<form action="https://formspree.io/f/YOUR_ID" method="POST">
-  <input type="text"  name="name"    placeholder="Your Name" required>
-  <input type="email" name="email"   placeholder="Your Email" required>
-  <textarea            name="message" placeholder="Your Message" required></textarea>
-  <button type="submit" class="btn-primary">Send Message</button>
-</form>
-```
+![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
+![Generative AI](https://img.shields.io/badge/Generative_AI_(PMI)-6B46C1?style=for-the-badge&logo=openai&logoColor=white)
 
----
+**Currently Learning**
 
-## ✅ Pre-launch Checklist
-
-- [ ] All 4 files uploaded to GitHub
-- [ ] Site live on Vercel
-- [ ] Test on mobile (looks good at 375px)
-- [ ] Test all links (email, LinkedIn, phone)
-- [ ] Add LinkedIn URL to your LinkedIn profile
-- [ ] Share URL on your CV and applications
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Make](https://img.shields.io/badge/Make.com-6D00CC?style=for-the-badge&logo=make&logoColor=white)
 
 ---
 
-Built by Ali Bin Saeed · iamalibinsaeed@gmail.com
+### 🎓 Certifications
+
+| Year | Certificate | Issuer |
+| :--- | :--- | :--- |
+| **Jan 2026** | Foundations of Project Management | Google · Coursera |
+| **Nov 2025** | Generative AI Overview for Project Managers | PMI · Credly |
+| **Aug 2020** | Introduction to Cloud Identity | Google Cloud · Coursera |
+| **Jul 2022** | Technical Training Course | e-Rozgaar · Punjab IT Board |
+| **May 2024** | E-Learning Sustainability | Nestlé |
+
+---
+
+### 🚀 Projects
+
+| Project | Stack | Description |
+| :--- | :--- | :--- |
+| [**CRM Workflow Automation**](https://github.com/iamalibinsaeed) | SuiteCRM · PHP · MySQL | Automated legal document translation workflows for law firms. Custom modules, dashlets, and reports. |
+| [**IBERWAYS Limousine Platform**](https://github.com/iamalibinsaeed) | React.js · REST APIs | Booking and payment web app for a Portugal-based car rental service. Full API test coverage. |
+| [**School Management System**](https://github.com/iamalibinsaeed) | MERN · Next.js | Student records, attendance, and admin dashboards with real-time API integration. |
+| [**Passgen**](https://github.com/iamalibinsaeed/passgen) | JavaScript | Random strong password generator. |
+| [**React Todo**](https://github.com/iamalibinsaeed/react-todo-hooks) | React.js | Hooks and state management demo. |
+| [**Abraham Estate**](https://github.com/iamalibinsaeed/react-real-estate-ui) | React.js | Real estate management system UI. |
+
+---
+
+### 📊 GitHub Stats
+
+<div align="center">
+
+![Ali's GitHub Stats](https://github-readme-stats.vercel.app/api?username=iamalibinsaeed&show_icons=true&theme=tokyonight&count_private=true&hide_border=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=iamalibinsaeed&layout=compact&theme=tokyonight&hide_border=true)
+
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=iamalibinsaeed&theme=tokyonight&hide_border=true)
+
+</div>
+
+---
+
+### 📫 Reach Me
+
+- 📧 **Email:** [iamalibinsaeed@gmail.com](mailto:iamalibinsaeed@gmail.com)
+- 💼 **LinkedIn:** [linkedin.com/in/iamalibinsaeed](https://www.linkedin.com/in/iamalibinsaeed/)
+- 🌐 **Portfolio:** [iamalibinsaeed.vercel.app](https://iamalibinsaeed.vercel.app)
+
+> 💡 *Available immediately for worldwide remote roles — QA Automation, AI/Workflow Automation, Technical Support, and Project Management.*
