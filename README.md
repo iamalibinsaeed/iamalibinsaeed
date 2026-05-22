@@ -1,74 +1,132 @@
-# Hi there, I'm Ali Bin Saeed 👋
+# Ali Bin Saeed — Portfolio Website
 
-### Software Engineer in Test | React.js | PHP | WordPress | CRM Customization | Exploring Gen AI & Project Management
+Futuristic personal portfolio. Pure HTML, CSS, and vanilla JavaScript. No build step required.
 
-I am a Software Engineer currently specializing in **Software Testing**, skilled in **React.js, PHP, and WordPress**. I have extensive experience in building responsive web applications and customizing CRM systems like SugarCRM and SuiteCRM. Passionate about ensuring product quality, optimizing performance, and solving technical challenges through a blend of development and testing expertise.
+## Files
 
----
-
-### 💼 Professional Experience
-
-| Period | Role | Company |
-| :--- | :--- | :--- |
-| **Sept 2025 - Present** | **Software Engineer in Test** | Smart Techlodge |
-| **Feb 2025 - May 2025** | **Software Engineer** | AWAYR |
-| **Aug 2024 - Jan 2025** | **Software Engineer** | IT Extension |
-| **Feb 2024 - July 2024** | **QA Engineer** | Smart Techlodge |
-| **Feb 2023 - Jan 2024** | **Software Engineer** | Smart Techlodge |
-| **Sept 2020 - Feb 2021** | **Wordpress Developer** | WebBuggs |
+```
+ali-portfolio/
+├── index.html   ← main page
+├── style.css    ← all styles
+├── main.js      ← cursor, particles, scroll reveal, mobile nav
+└── README.md    ← this file
+```
 
 ---
 
-### 🎓 Education & Certifications
+## 🚀 Deploy to GitHub + Vercel (Step by Step)
 
-- **BS in Computer Science** (2017 - 2021) @ National College Of Business Administration & Economics
-- **Generative AI Overview for Project Managers**
-- **Foundations of Project Management**
-- **Technical Training Course**
-- **Introduction to Cloud Identity**
-- **Nestlé E-Learning Sustainability**
+### Step 1 — Create a GitHub repository
 
----
-
-### 🛠️ Technologies & Tools
-
-<p align="left">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
-  <img src="https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white" alt="WordPress" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS" />
-</p>
+1. Go to https://github.com and log in
+2. Click the **+** icon (top right) → **New repository**
+3. Repository name: `portfolio` (or `ali-portfolio`)
+4. Set to **Public**
+5. Do NOT check "Add a README" (you already have files)
+6. Click **Create repository**
 
 ---
 
-### 🚀 Projects
+### Step 2 — Upload your files to GitHub
 
-- [**Passgen**](https://github.com/iamalibinsaeed/passgen): A Random Strong Password Generator.
-- [**React Todo**](https://github.com/iamalibinsaeed/react-todo-hooks): Simple React applications demonstrating hooks and state management.
-- [**Abraham Estate**](https://github.com/iamalibinsaeed/react-real-estate-ui): Real Estate Management System UI.
+**Option A — Using GitHub website (easiest):**
+
+1. On your new repo page, click **"uploading an existing file"**
+2. Drag and drop all 4 files: `index.html`, `style.css`, `main.js`, `README.md`
+3. Scroll down → click **"Commit changes"**
+
+**Option B — Using Git in terminal:**
+
+```bash
+# Navigate to your project folder
+cd ali-portfolio
+
+# Initialize git
+git init
+
+# Add all files
+git add .
+
+# Commit
+git commit -m "Initial portfolio commit"
+
+# Add your GitHub repo as remote (replace YOUR_USERNAME)
+git remote add origin https://github.com/YOUR_USERNAME/portfolio.git
+
+# Push
+git branch -M main
+git push -u origin main
+```
 
 ---
 
-### 📉 GitHub Stats
+### Step 3 — Deploy to Vercel (free, instant)
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=iamalibinsaeed&show_icons=true&theme=radical&count_private=true" alt="Ali's GitHub stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=iamalibinsaeed&theme=radical" alt="Ali's Streak" />
-</p>
+1. Go to https://vercel.com and sign up with your GitHub account
+2. Click **"Add New Project"**
+3. Find your `portfolio` repo and click **"Import"**
+4. Vercel will auto-detect it as a static site — no settings needed
+5. Click **"Deploy"**
+6. In ~30 seconds, your site is live at: `https://portfolio-yourusername.vercel.app`
 
 ---
 
-### 📫 How to reach me
+### Step 4 — Get a custom domain (optional but professional)
 
-- **LinkedIn:** [Ali Bin Saeed](https://www.linkedin.com/in/iamalibinsaeed/)
-- **Email:** [iamalibinsaeed@gmail.com](mailto:iamalibinsaeed@gmail.com)
-- **Twitter:** [@iamalibinsaeed](https://twitter.com/iamalibinsaeed)
+**Free subdomain (instant):**
+- Vercel gives you: `https://ali-bin-saeed.vercel.app`
+- In Vercel dashboard → Settings → Domains → type your preferred name
 
-<p align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=iamalibinsaeed.iamalibinsaeed" alt="visitors" />
-</p>
+**Buy a domain (~$10/year):**
+- Recommended: Namecheap.com or Porkbun.com
+- Buy: `alibinsaeed.com` or `alibinsaeed.dev`
+- In Vercel → Settings → Domains → Add your domain
+- Follow the DNS instructions (takes 5–30 min)
+
+---
+
+## 🔄 How to Update the Website
+
+After any change to your files:
+
+```bash
+git add .
+git commit -m "Update experience section"
+git push
+```
+
+Vercel automatically redeploys within 30 seconds. ✅
+
+---
+
+## 📧 Contact Form (Optional Upgrade)
+
+To make the contact section functional, add Formspree (free):
+
+1. Go to https://formspree.io and sign up
+2. Create a new form → copy your form endpoint
+3. In `index.html`, replace the contact links section with:
+
+```html
+<form action="https://formspree.io/f/YOUR_ID" method="POST">
+  <input type="text"  name="name"    placeholder="Your Name" required>
+  <input type="email" name="email"   placeholder="Your Email" required>
+  <textarea            name="message" placeholder="Your Message" required></textarea>
+  <button type="submit" class="btn-primary">Send Message</button>
+</form>
+```
+
+---
+
+## ✅ Pre-launch Checklist
+
+- [ ] All 4 files uploaded to GitHub
+- [ ] Site live on Vercel
+- [ ] Test on mobile (looks good at 375px)
+- [ ] Test all links (email, LinkedIn, phone)
+- [ ] Add LinkedIn URL to your LinkedIn profile
+- [ ] Share URL on your CV and applications
+
+---
+
+Built by Ali Bin Saeed · iamalibinsaeed@gmail.com
